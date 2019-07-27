@@ -3,6 +3,7 @@
     <headers class="home_header"></headers>
     <!--内容显示组件-->
     <router-view class="app_content"/>
+    <fter></fter>
     <!--底部组件切换导航-->
     <div id="nav">
       <router-link to="/">
@@ -36,9 +37,10 @@
 
 <script>
     import headers from './components/Home_header'
+    import fter from './components/Home_footer'
     export default {
       components:{
-        headers,
+        headers,fter
       }
   
     }
@@ -77,6 +79,6 @@
   }
   .app_content{
     margin-top:3.75rem;
-    margin-bottom: 3.125rem;
+    padding-bottom: 3.125rem;
   }
 </style>
