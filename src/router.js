@@ -5,6 +5,13 @@ import Product from './views/Product.vue'
 import Brand from './views/Brand.vue'
 import Contact from './views/Contact.vue'
 
+import BuyFurniture from './components/buyFurniture.vue'
+import Advice from './components/advice.vue'
+import Join from './components/join.vue'
+import Position from './components/position.vue'
+import Posi from './components/posi.vue'
+import BrandDetail from "./components/brandDetail.vue"
+
 Vue.use(Router)
 
 export default new Router({
@@ -25,14 +32,51 @@ export default new Router({
       component: Product
     },
     {
+      // 品牌中心
       path:'/brand',
       name:'brand',
-      component:Brand
+      component:Brand,
     },
     {
+      path:"/brandDetail",
+      name:"brandDetail",
+      component:BrandDetail
+    },
+    {
+      // 联系我们
       path:'/contact',
       name:'contact',
-      component:Contact
+      component:Contact,
+    },
+    {
+      // 买家具
+      path:'/buyfurniture',
+      name:'buyfurniture',
+      component:BuyFurniture,
+    },
+    {
+      // 提建议
+      path:'/advice',
+      name:'advice',
+      component:Advice,
+    },
+    {
+      // 加盟
+      path:'/join',
+      name:'join',
+      component:Join,
+    },
+    {
+      // 申请职位
+      path:'/position',
+      name:'position',
+      component:Position,
+    },
+    {
+      // 申请职位
+      path:'/posi/:selectVal',
+      name:'posi',
+      component:Posi,
     }
   ]
 })
