@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Product from './views/Product.vue'
 import Brand from './views/Brand.vue'
 import Contact from './views/Contact.vue'
+import  ProductList from './components/ProductList.vue'
 
 import BuyFurniture from './components/buyFurniture.vue'
 import Advice from './components/advice.vue'
@@ -26,13 +27,19 @@ export default new Router({
     {
       path: '/product',
       name: 'product',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: Product
+      component: Product,
     },
     {
+<<<<<<< HEAD
       // 品牌中心
+=======
+      path: '/product/:id',
+      name: 'productList',
+      component:ProductList
+    },
+   
+    {
+>>>>>>> c3181c418f025cdb47e49eabb04623d6c8d0523c
       path:'/brand',
       name:'brand',
       component:Brand,

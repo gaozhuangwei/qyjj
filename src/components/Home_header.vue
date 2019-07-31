@@ -1,8 +1,10 @@
 <template>
+  <div>
     <div class="home_header">
       <img src="../../public/logo.png" alt="logo">
       <img src="../../public/tel_img.png" alt="logo">
     </div>
+  </div>
 </template>
 
 <style scoped>
@@ -11,6 +13,9 @@
       height:3.75rem;
       line-height: 3.75rem;
       background-color: #fff;
+      position: fixed;
+      top:0;
+      z-index: 100;
     }
     .home_header img:nth-of-type(1){
       float: left;
