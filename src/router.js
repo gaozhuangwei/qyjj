@@ -30,16 +30,12 @@ export default new Router({
       component: Product,
     },
     {
-<<<<<<< HEAD
-      // 品牌中心
-=======
       path: '/product/:id',
       name: 'productList',
       component:ProductList
     },
    
     {
->>>>>>> c3181c418f025cdb47e49eabb04623d6c8d0523c
       path:'/brand',
       name:'brand',
       component:Brand,

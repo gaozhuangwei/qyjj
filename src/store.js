@@ -5,7 +5,6 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-<<<<<<< HEAD
       brand:{
         headImg:"http://www.quanyou.com.cn/static/mobile/img/ppzx/ppzx1.jpg",
         qyzx:{
@@ -84,9 +83,7 @@ export default new Vuex.Store({
             "综合管理类":["品质副总监","高级培训师","资深策划师","市场督察员","市场策划经理","设备主管"],
             "财务类":["财务经理","会计"],
           }
-      }
-=======
-<<<<<<< HEAD
+      },
       product:[
         {
           BigImgUrl: "https://www.quanyou.com.cn:89//UserFiles/UploadFile/20180605/QYJJWebSet20180605031117.jpg",
@@ -190,11 +187,8 @@ export default new Vuex.Store({
           Name: "保养攻略",
           ChildrenType:[]
         },
-      ]
- 
-    },
-=======
-      Home_footer:[
+      ],
+        Home_footer:[
         {
             "BigImgUrl":"http://www.quanyou.com.cn/static/mobile/img/index/bd.png",
             "Id":10001,
@@ -232,9 +226,9 @@ export default new Vuex.Store({
             "SmallImgUrl":"http://www.baidu.com"
         }
     ]
->>>>>>> c3181c418f025cdb47e49eabb04623d6c8d0523c
-  },
->>>>>>> 49ea8d727cde923f4dc01cb43a362e39bb205221
+ 
+    },
+
   mutations: {
 
   },
