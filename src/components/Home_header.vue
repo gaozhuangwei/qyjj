@@ -1,8 +1,10 @@
 <template>
+  <div>
     <div class="home_header">
       <img src="../../public/logo.png" alt="logo">
       <img src="../../public/tel_img.png" alt="logo">
     </div>
+  </div>
 </template>
 
 <style scoped>
